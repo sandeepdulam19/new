@@ -1,6 +1,7 @@
 name: Java CI/CD with Gradle and Docker
 
 on:
+  workflow_dispatch: 
   push:
     branches:
       - main
